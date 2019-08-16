@@ -1,9 +1,3 @@
-# timouter 
-
-
-A easy way to set a timeout for an event, made to be able to handle concurrent updates.
-
-```go
 package main
 
 import (
@@ -42,11 +36,3 @@ func main() {
 
 	r.Run(":9000")
 }
-```
-
-
-## Send the request in 10 seconds of starting the server
-
-```
-curl localhost:9000/user_response
-```
